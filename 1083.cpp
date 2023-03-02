@@ -1,4 +1,5 @@
 //Missing number
+//WRONG SOLUTION so far TBC
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -11,10 +12,11 @@ int main(){
             }else if(j != i){
                 count++;
             }
-            if(count = n-1){
+            if(count == n-1){
                 cout << i;
                 break;
             }
+
         }
     }	
 }
