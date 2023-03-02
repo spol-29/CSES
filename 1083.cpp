@@ -11,6 +11,10 @@ int main(){
             }else if(j != i){
                 count++;
             }
+            if(count = n-1){
+                cout << i;
+                break;
+            }
         }
     }	
 }
